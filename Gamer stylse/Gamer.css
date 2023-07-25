@@ -48,7 +48,8 @@ main{
 .icon-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 30%;
+    margin-left: 85px;
+    /* margin-right: 100px; */
 }
 
 
@@ -124,8 +125,8 @@ footer{
     .icon-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 5%;
-        justify-content: space-around;
+        gap: 0px;
+        justify-content: space-evenly;
     }
 
     .footer-h3{
