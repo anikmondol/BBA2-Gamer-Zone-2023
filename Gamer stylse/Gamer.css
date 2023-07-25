@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* shear style */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+main{
+    max-width: 1420px;
+}
+
+
+
+
+
+/* icon-section */
+
+/* .icon-section{
+    width: 1920px;
+    height: 427px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    
+    
+} */
+
+
+
+/* .center1 {
+    display: flex;
+    align-items: center;
+    gap: 163px;
+    margin-left: 234px;
+    padding-bottom: 50px;
+}
+
+.center2{
+    display: flex;
+    align-items: center;
+    gap: 163px;
+    margin-left: 334px;
+    padding-bottom: 50px;
+} */
+
+.icon-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 30%;
+}
+
+
+.icon-section .card{
+    border: 1px solid black;
+    height: 70%;
+    width: 50%;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: progress;
+
+}
+
+.icon-section p{
+    font-size: 1rem;
+    color: rgb(225, 133, 133);
+    padding-bottom: 50px;
+
+}
+
+.icon-section p:hover{
+    color: black;
+} 
+/* footer styles */
+#no{
+    color: #4EC5F7;
+}
+#na{
+    color: hsl(0, 71%, 70%);
+}
+
+footer{
+    width: 100%;
+    background-color: #f2e8e8;
+    padding-top: 70px;
+}
+
+.footer-head{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.footer-h3{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.footer-p{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.copy-class{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: Linear;
+}
+/* responsive styles media queries */
+
+/* mobile device */
+
+@media screen and (max-width: 576px) {
+
+    .icon-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+        justify-content: space-around;
+    }
+
+    .footer-h3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-p{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 50%;
+    }
+}
+
+
+
+/* tablet or medium device */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+.icon-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 14%;
+}
+}
