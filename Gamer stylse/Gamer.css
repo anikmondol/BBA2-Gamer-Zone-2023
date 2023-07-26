@@ -132,6 +132,10 @@ main{
     background-color: red;
 }
 /* header styles */
+.g-color{
+    color:  #FF42A5;
+}
+
 .nav-img{
     width: 50px;
     height: 50px;
