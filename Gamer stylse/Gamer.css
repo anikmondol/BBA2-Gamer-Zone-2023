@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
 
 /* extra section */
+.play-button{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.bownload-button{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.gtoup-button{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
 .card-img-1{
     background-image: url('../images/Rectangle\ 4.png');
 }
@@ -106,19 +127,22 @@ main{
 /* group-18-contanier */
 
 .group-18-contanier{
+    height: 100%;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 50px;
+    background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
 .my-bacgroud-img{
-    margin: 200px 0px;
-    background-image: url(../images/Group\ 14.png);
+    padding-right: 100px;
+    padding-top: 200px;
 }
 
 .group-18{
-    margin-bottom: 100px;
+    padding-left: 100px;
 }
+
 
 
 
@@ -132,20 +156,19 @@ main{
 }
 
 .pngwing-4 img{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     gap: 50px;
+    margin-left: 20px;
 }
 
 .we-are-gamer{
     width: 80%;
     height: 70%;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
-.img-pngwing{
-    margin-left: 100px;
-}
+
 
 /* inline section */
 
@@ -327,15 +350,38 @@ footer{
         margin-left: 90px;
     }
     .group-18-contanier{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+        margin: 10px;
     }
-    
-
     .my-bacgroud-img {
+        /* margin: 200px 0px; */
+        background-image: url(../images/Group\ 14.png);
+        padding-bottom: 100px;
+        padding-left: 100px;
+        gap: 20px;
+    }
+    .img-pngwing {
+        padding-left: 50px;
+    }
+
+    .group-18{
+        padding-right: 120px;
+        width: 50%;
+        height: 55%;
+        
+    
+    }
+    .my-bacgroud-img{
+        padding: 100px 100px;
+    }
+
+    /* .my-bacgroud-img {
         margin: 15px;
         background-image: url(../images/Group\ 14.png);
         padding: 10px;
-    }
+    } */
 }
 
 
@@ -364,18 +410,31 @@ footer{
     font-weight: 400;
     line-height: 30px;
 }
-/* .group-18-contanier {
-    display: grid;
-    grid-template-rows: auto;
-} */
-.my-bacgroud-img{
-    text-align: center;
-    margin: 20px;
-}
+
 .pngwing-4 img{
     width: 100%;
     height: 100%;
     gap: 50px;
+    margin-left: 10px;
 }
 
+.group-18-contanier {
+    text-align: center;
+    gap: 150px;
+    flex-direction: column;
+}
+
+
+.pngwing-4 {
+    flex-direction: column;
+    align-items: center;
+}
+.we-are-gamer{
+    text-align: center;
+}
+.my-bacgroud-img{
+    margin: 0px auto ;
+    background-image: url(../images/Group\ 14.png);
+    padding-bottom: 100px;
+}
 }
